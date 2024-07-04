@@ -284,7 +284,7 @@ document.getElementById('resultCard').style.display = 'none';
 displayQuestion();
 }
 
-// Start the quiz initially
+
 displayQuestion();
 
 
