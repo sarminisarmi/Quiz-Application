@@ -10,7 +10,7 @@ body {
   
   .navbar {
     width: 100%;
-    background-color: #333;
+    background-color: #29b824;
     overflow: hidden;
   }
   
@@ -21,14 +21,14 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: #333;
+    background-color: #1fa72a;
     border: none;
     cursor: pointer;
   }
   
   .navbar button:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(33, 194, 47);
   }
   
   .filter-buttons {
@@ -40,14 +40,14 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border: none;
-    background-color: #333;
+    background-color: #4b8d31;
     color: white;
     font-size: 16px;
   }
   
   .filter-buttons button:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(12, 199, 5);
   }
   
   #quizContainer, #resultCard {
@@ -78,7 +78,7 @@ body {
   }
   
   #timer #timeCircle {
-    stroke: #3498db;
+    stroke: #1332bd;
     stroke-dasharray: 283;
     stroke-dashoffset: 0;
     transition: stroke-dashoffset 1s linear;
@@ -108,3 +108,4 @@ body {
   
   #submitAnswerBtn, #restartQuizBtn {
     margin-top: 20px;
+  }
